@@ -1,0 +1,20 @@
+meta {
+  name: createBooking
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/api/createBooking
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userEmail": "test@example.com",
+    "location": "Floor 1, Desk 5",
+    "bookingDate": "2024-06-18"
+  }
+  
+}

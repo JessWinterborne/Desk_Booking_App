@@ -1,0 +1,17 @@
+meta {
+  name: checkDeskExists
+  type: http
+  seq: 8
+}
+
+post {
+  url: http://localhost:8080/api/checkDeskExists
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "location": "Floor 1, Desk 5"
+  }
+}

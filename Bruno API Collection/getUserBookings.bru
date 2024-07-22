@@ -1,0 +1,17 @@
+meta {
+  name: getUserBookings
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8080/api/getUserBookings
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userEmail": "test@example.com"
+  }
+}

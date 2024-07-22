@@ -1,0 +1,17 @@
+meta {
+  name: checkUserExists
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:8080/api/checkUserExists
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "userEmail": "test@example.com"
+  }
+}
