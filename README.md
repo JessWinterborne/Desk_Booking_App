@@ -5,12 +5,17 @@
 This repository currently contains the containerised back-end for an application I built for my 'Software Engineering Principles' university project at Northumbria University.
 This was built to address a business need to update my organisation's legacy desk booking application, making it more scalable, flexible, and secure. 
 The full project report, including the business case and in-depth analyses of various technologies and frameworks can be found under XXX.
-This also outlines the reasons for the decisions made in this project, including but not limited to: 
+This also outlines the reasons for the decisions made in this project, relationg to the full software development lifecycle:
 - Agile methodologies
 - Programming languages
-- Database type
+- Databases
+- Requirements gathering and engineering
+- Security considerations
 - Architecture
-- ...
+- Systems designs (high level and low level designs)
+- Evaluation metrics
+- Different test suites (unit, regression, integration, acceptance, performace etc.)
+- Compliance and regulation
 
 Implemented:
 Spring Boot based REST APIs. 
