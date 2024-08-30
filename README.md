@@ -34,8 +34,8 @@ This also outlines the reasons for the decisions made in this project, relationg
 ## Usage
 
 **To run:**
-docker-compose up --build
+`docker-compose up --build`
 
 **To shut down:**
-docker-compose down
+`docker-compose down`
 
