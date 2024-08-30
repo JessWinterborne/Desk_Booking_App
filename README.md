@@ -17,14 +17,14 @@ This also outlines the reasons for the decisions made in this project, relationg
 - Different test suites (unit, regression, integration, acceptance, performace etc.)
 - Compliance and regulation
 
-Implemented:
+**Implemented:**
 Spring Boot based REST APIs. 
 PostgreSQL database with SQL constraints to enforce business rules. 
 Docker Compose for container orchestration. 
 A Bruno collection is provided to interact with the REST Endpoints
 A unit test suite can be found under src/test/
 
-Still to do:
+**Still to do:**
 React front-end.
 More tests including end-to-end and integration tests.
 Monitoring and logging.
